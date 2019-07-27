@@ -1,0 +1,28 @@
+extends ../layouts/common
+block content
+  h1 Users 
+  
+  div
+    a(href="/users/create") 
+      button.btn.btn-primary New
+
+  form.form-inline(action="/users/search" method="GET")
+    input(type="text" name="q" class="form-control w-75")
+    button(class="btn btn-primary") Search
+
+  table.table.table-hover
+    thead
+      tr
+        th Name
+        th Phone
+        th Active
+    tbody
+      each user in users
+        tr
+          td=user.name
+          td=user.phone
+          td
+            a(href="/user/" + user.id)
+              .btn.btn-primary view
+
+
