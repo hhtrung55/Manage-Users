@@ -1,4 +1,4 @@
-extends ../layouts/common.pug
+extends ../layouts/common
 block content
     h1 Create User
     if errors
@@ -9,9 +9,11 @@ block content
       .form-group
         label(for='name') Name
         input#name.form-control(type='text', placeholder='Enter name', name='name', value= value ? value.name : '')
+
       .form-group
         label(for='phone') Phone
         input#phone.form-control(type='phone', placeholder='Enter phone', name='phone', value= value ? value.phone: '')
+        
       button.btn.btn-primary(type='submit') Create
 
 

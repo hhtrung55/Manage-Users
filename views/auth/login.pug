@@ -1,0 +1,17 @@
+extends ../layouts/common
+block content
+    h1 LOGIN
+    if error
+      .alert.alert-danger= error
+
+    form(action='/auth/login', method="POST")
+      .form-group
+        label(for='email') Email
+        input#email.form-control(type='email', name='email', value= value ? value.email : '')
+
+      .form-group
+        label(for='pwd') Phone
+        input#pwd.form-control(type='password', name='pwd', value= value ? value.pwd: '')
+        
+      button.btn.btn-primary(type='submit') Login
+

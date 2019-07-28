@@ -12,7 +12,7 @@ module.exports.get = (req, res) => {
     .find({ id: id })
     .value();
   res.render("users/view", {
-    user: user 
+    user: user
   });
 };
 

@@ -1,12 +1,14 @@
 {
   "users": [
     {
-      "name": "Hoang Huy Trung",
+      "name": "Iron Man",
       "phone": "0963465597",
-      "id": "Hh5JcoIci"
+      "id": "Hh5JcoIci",
+      "email": "hoangtrung.huster@gmail.com",
+      "password": "1"
     },
     {
-      "name": "Hoang Huy Dung",
+      "name": "Spiderman",
       "phone": "0963465597",
       "id": "aF5rL6UW4"
     },
@@ -14,7 +16,17 @@
       "name": "Tony Stark",
       "phone": "0919381084",
       "id": "DMN_LOYgG"
+    },
+    {
+      "name": "Scarllet Johanson",
+      "phone": "091782873",
+      "id": "JVT1ZAdg7"
+    },
+    {
+      "name": "Black Widow",
+      "phone": "019828142",
+      "id": "9s7NLV8KG"
     }
   ],
-  "count": 3
+  "count": 5
 }
