@@ -4,8 +4,8 @@
       "name": "Iron Man",
       "phone": "0963465597",
       "id": "Hh5JcoIci",
-      "email": "hoangtrung.huster@gmail.com",
-      "password": "1"
+      "email": "1@gmail.com",
+      "password": "c4ca4238a0b923820dcc509a6f75849b"
     },
     {
       "name": "Spiderman",
@@ -26,7 +26,12 @@
       "name": "Black Widow",
       "phone": "019828142",
       "id": "9s7NLV8KG"
+    },
+    {
+      "name": "Hulk",
+      "phone": "0232141241",
+      "id": "Lc1BPLssB"
     }
   ],
-  "count": 5
+  "count": 6
 }
